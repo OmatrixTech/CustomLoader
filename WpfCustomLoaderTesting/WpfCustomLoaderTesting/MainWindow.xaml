@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfCustomLoaderTesting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         xmlns:WaitWindow="clr-namespace:WPF.CustomControls.LoadEase;assembly=WPF.CustomControls.LoadEase"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <WaitWindow:AdornedControl Name="LoadingAdorner">
+        <!--Overlay for WaitLoader-->
+        <WaitWindow:AdornedControl.AdornerContent>
+            <WaitWindow:GemstoneGlide ExpectedLoaderHeight="180" ExpectedLoaderWidth="180" LoaderText="Loading.."  LoaderTextColor="OrangeRed"   />
+        </WaitWindow:AdornedControl.AdornerContent>
+        <Grid>
+            <!--Main Content of the application-->
+            <TextBlock Text="Demo"/>
+        </Grid>
+    </WaitWindow:AdornedControl>
+</Window>
