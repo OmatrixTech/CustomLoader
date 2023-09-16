@@ -37,4 +37,32 @@ The goal of this project is to design and implement a custom loader that can eff
         </Grid>
     </WaitWindow:AdornedControl>
 </Window>
+**************************************************************************************************************
+
+========================CompanyLogoSpinner=====================================================
+<Window x:Class="TestLoader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF.CustomControls.LoadEase;assembly=WPF.CustomControls.LoadEase"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <local:AdornedControl Name="LoadingAdorner">
+        <!--Overlay for WaitLoader-->
+        <local:AdornedControl.AdornerContent>
+            
+            <local:CompanyLogoSpinner LoaderBaseColor="Black" ImageNameWithAssemblyPath="pack://application:,,,/TestLoader;component/Images/Logo.png" LoaderFontSize="25" ExpectedLoaderHeight="350" ExpectedLoaderWidth="350"  LoaderText="Loading..."  LoaderTextColor="Red"   />
+        </local:AdornedControl.AdornerContent>
+        <Grid>
+        <!--Main Content of the application-->
+            <TextBlock Text="Demo"/>
+        </Grid>
+    </local:AdornedControl>
+</Window>
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
 
