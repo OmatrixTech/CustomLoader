@@ -4,8 +4,9 @@ The goal of this project is to design and implement a custom loader that can eff
 
 
 ***************Process to use WaitIwndow in WPF************************
-1.Add following DLL in your projects
-  "FontAwesome.WPF.dll","WPF.CustomControls.LoadEase.dll"
+1.Install nuget package
+"WPF.CustomControls.LoadEase"
+ OR "FontAwesome.WPF.dll","WPF.CustomControls.LoadEase.dll"
 2.To Show Loader use the following method
 ====>LoaderHandler.ShowLoader();
 
@@ -45,21 +46,21 @@ The goal of this project is to design and implement a custom loader that can eff
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WPF.CustomControls.LoadEase;assembly=WPF.CustomControls.LoadEase"
+        xmlns:WaitWindow="clr-namespace:WPF.CustomControls.LoadEase;assembly=WPF.CustomControls.LoadEase"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <local:AdornedControl Name="LoadingAdorner">
+    <WaitWindow:AdornedControl Name="LoadingAdorner">
         <!--Overlay for WaitLoader-->
-        <local:AdornedControl.AdornerContent>
-            
-            <local:CompanyLogoSpinner LoaderBaseColor="Black" ImageNameWithAssemblyPath="pack://application:,,,/TestLoader;component/Images/Logo.png" LoaderFontSize="25" ExpectedLoaderHeight="350" ExpectedLoaderWidth="350"  LoaderText="Loading..."  LoaderTextColor="Red"   />
-        </local:AdornedControl.AdornerContent>
+        <WaitWindow:AdornedControl.AdornerContent>
+            <WaitWindow:CompanyLogoSpinner LoaderBaseColor="Black" LoaderForegroundColor="OrangeRed" LoaderStrokeThickness="12" ImageNameWithAssemblyPath="pack://application:,,,/TestLoader;component/Images/Logo.png" LoaderFontSize="30"  ExpectedLoaderHeight="380" ExpectedLoaderWidth="380" LoaderText="Loading..."  LoaderTextColor="White"   />
+        </WaitWindow:AdornedControl.AdornerContent>
         <Grid>
         <!--Main Content of the application-->
             <TextBlock Text="Demo"/>
         </Grid>
-    </local:AdornedControl>
+    </WaitWindow:AdornedControl>
 </Window>
+
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
