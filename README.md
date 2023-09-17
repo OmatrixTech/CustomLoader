@@ -3,12 +3,12 @@ The goal of this project is to design and implement a custom loader that can eff
 
 
 
-*****Process to use WaitIwndow in WPF*******
+****Process to use WaitIwndow in WPF***
 
 1.Install nuget package
 
 "WPF.CustomControls.LoadEase"
- OR "FontAwesome.WPF.dll","WPF.CustomControls.LoadEase.dll"
+ OR Add as a reference of the DLL which is avaolable in project "FontAwesome.WPF.dll", "WPF.CustomControls.LoadEase.dll"
  
 2.To Show Loader use the following method
 ====>LoaderHandler.ShowLoader();
