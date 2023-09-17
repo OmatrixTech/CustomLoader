@@ -3,10 +3,13 @@ The goal of this project is to design and implement a custom loader that can eff
 
 
 
-***************Process to use WaitIwndow in WPF************************
+*****Process to use WaitIwndow in WPF*******
+
 1.Install nuget package
+
 "WPF.CustomControls.LoadEase"
  OR "FontAwesome.WPF.dll","WPF.CustomControls.LoadEase.dll"
+ 
 2.To Show Loader use the following method
 ====>LoaderHandler.ShowLoader();
 
@@ -16,7 +19,7 @@ The goal of this project is to design and implement a custom loader that can eff
 4.Reference in WPF window form
 ====> xmlns:WaitWindow="clr-namespace:WPF.CustomControls.LoadEase;assembly=WPF.CustomControls.LoadEase"
 
-5. Load waitwindow on page
+5.Example of Load waitwindow on page
 
 <Window x:Class="WpfApp1.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -40,7 +43,7 @@ The goal of this project is to design and implement a custom loader that can eff
 </Window>
 **************************************************************************************************************
 
-========================CompanyLogoSpinner=====================================================
+========================CompanyLogoSpinner Example=====================================================
 <Window x:Class="TestLoader.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
