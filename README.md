@@ -43,7 +43,8 @@ The goal of this project is to design and implement a custom loader that can eff
 </Window>
 **************************************************************************************************************
 
-========================CompanyLogoSpinner Example=====================================================
+========================CompanyLogoSpinner Example==================================
+
 <Window x:Class="TestLoader.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
