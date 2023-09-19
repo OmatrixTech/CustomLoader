@@ -103,6 +103,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="DLL_Instruction\FontAwesome.WPF.dll" />
+    <Resource Include="Resource\Images\Logo.png" />
     <Resource Include="DLL_Instruction\LoaderProcess.txt" />
     <Content Include="DLL_Instruction\WPF.CustomControls.LoadEase.dll" />
   </ItemGroup>
