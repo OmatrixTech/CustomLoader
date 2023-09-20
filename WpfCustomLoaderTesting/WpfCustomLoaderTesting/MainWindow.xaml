@@ -9,7 +9,7 @@
     <WaitWindow:AdornedControl x:Name="LoadingAdorner"><!--Keep AdornedControl name as it is "LoadingAdorner"-->
         <!--Overlay for WaitLoader-->
         <WaitWindow:AdornedControl.AdornerContent>
-            <!--Different Loader example are given below-->
+            <!--The "WPF.CustomControls.LoadEase" package includes the following loaders, each of which is accompanied by examples provided below.-->
             <!--You can configure various mentioned properties based on your specific requirements.-->
             <!--1.AeroSpinLoader--><!--
             <WaitWindow:AeroSpinLoader ExpectedLoaderHeight="180" LoaderFontSize="15" LoaderColor="OrangeRed" ExpectedLoaderWidth="180" LoaderText="Loading.."  LoaderTextColor="Blue"   />-->
