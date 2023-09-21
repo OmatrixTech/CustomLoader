@@ -4,7 +4,7 @@
 1.Add following DLL in your projects
   "FontAwesome.WPF.dll","WPF.CustomControls.LoadEase.dll"
             OR
-Install Nuget package "WPF.CustomControls.LoadEase"
+Install Nuget package "NuGet\Install-Package WPF.CustomControls.LoadEase -Version 1.0.0" with the help of package manager console
 
 2.To Show Loader use the following method
 ====>LoaderHandler.ShowLoader();
