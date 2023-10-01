@@ -18,7 +18,7 @@ namespace WpfCustomLoaderTesting
         {
             InitializeComponent();
             timer = new DispatcherTimer();
-            timer.Interval = TimeSpan.FromSeconds(20); // Adjust the interval as needed
+            timer.Interval = TimeSpan.FromMinutes(10); // Adjust the interval as needed
             timer.Tick += Timer_Tick;
             timer.Start();
             LoaderHandler.ShowLoader();

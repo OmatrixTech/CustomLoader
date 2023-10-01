@@ -22,7 +22,7 @@
             <!--6.CircleLoader-->
             <!--<WaitWindow:CircleLoader LoaderOverColor="Black" ExpectedLoaderHeight="180" LoaderFontSize="15"  ExpectedLoaderWidth="180" LoaderText="Loading.."  LoaderTextColor="Red"   />-->
             <!--7.CompanyLogoSpinner (User can set company logo in this loader)-->
-            <!--<WaitWindow:CompanyLogoSpinner LoaderOverColor="Black" ImageNameWithAssemblyPath="pack://application:,,,/WpfCustomLoaderTesting;component/Resource/Images/Logo.png" ExpectedLoaderHeight="280" LoaderFontSize="15"  ExpectedLoaderWidth="280" LoaderText="Loading.."  LoaderTextColor="Red" LoaderBaseColor="Black" LoaderForegroundColor="OrangeRed" LoaderStrokeThickness="15"   />-->
+            <!--<WaitWindow:CompanyLogoSpinner LoaderOverColor="Black" ImageNameWithAssemblyPath="pack://application:,,,/WpfCustomLoaderTesting;component/Resource/Images/Logo.png" ExpectedLoaderHeight="280" LoaderFontSize="15"  ExpectedLoaderWidth="280" LoaderText="Loading.."  LoaderTextColor="Red" LoaderBaseColor="Black" LoaderForegroundColor="OrangeRed" LoaderStrokeThickness="6"   />-->
             <!--8.CrystalSpinLoader -->
             <!--<WaitWindow:CrystalSpinLoader LoaderOverColor="Black" LoaderColor="Green" ExpectedLoaderHeight="180" LoaderFontSize="15"  ExpectedLoaderWidth="180" LoaderText="Loading.."  LoaderTextColor="Red"   />-->
             <!--9.CrystalSpinLoader -->
@@ -38,7 +38,7 @@
             <!--14.LuminaLoader -->
             <!--<WaitWindow:LuminaLoader LoaderOverColor="Black" ExpectedLoaderHeight="180" LoaderFontSize="15"  ExpectedLoaderWidth="180" LoaderText="Loading.."  LoaderTextColor="Red"   />-->
             <!--15.OpalOrbitLoader-->
-            <!--<WaitWindow:OpalOrbitLoader LoaderOverColor="Black" LoaderBackgroundColor="Yellow" LoaderColor="OrangeRed" ExpectedLoaderHeight="50" ExpectedLoaderWidth="650"  LoaderFontSize="16"   LoaderText="Loading..."  LoaderTextColor="White"   />-->
+            <WaitWindow:OpalOrbitLoader LoaderOverColor="Black" LoaderBackgroundColor="Yellow" LoaderColor="OrangeRed" ExpectedLoaderHeight="50" ExpectedLoaderWidth="650"  LoaderFontSize="16"   LoaderText="Loading..."  LoaderTextColor="White"   />
             <!--16.PolyPulseSpinner-->
             <!--<WaitWindow:PolyPulseSpinner LoaderOverColor="Black" LoaderColor="Yellow" ExpectedLoaderHeight="250" ExpectedLoaderWidth="250" LoaderFontSize="10"   LoaderText="Loading.."  LoaderTextColor="Red"   />-->
             <!--17.PrecisionPulseLoader-->
@@ -62,9 +62,9 @@
             <!--25.WPFLoadEase-->
             <!--<WaitWindow:WPFLoadEase LoaderOverColor="Black"  ExpectedLoaderHeight="180" LoaderFontSize="15"  ExpectedLoaderWidth="180" LoaderText="Loading.."  LoaderTextColor="Red"   />-->
             <!--26.MicrosoftLoader-->
-            <!--<WaitWindow:MicrosoftLoader LoaderHeaderIcon="pack://application:,,,/WpfCustomLoaderTesting;component/Resource/Images/LoaderHeaderIcon.jpg" LoaderOverColor="Black" LoaderFontSize="10" LoaderBodyColor="Black" LoaderHeaderFontSize="20" LoaderColor="OrangeRed" LoaderHeaderText="Wait Window" LoaderHeaderTextColor="White" LoaderHeaderTheme="Blue" LoaderText="If you're looking to create a loader similar to those found in Microsoft Visual Studio using WPF and C#, you can create a custom loader control with a design inspired by Visual Studio's loading animations. Here's a simplified example of how you can create such a loader"  LoaderTextColor="White"   />-->
-            <!--27.WPFLoadEase-->
-            <WaitWindow:GalacticWPFSpinner  ExpectedLoaderHeight="180" LoaderColor="OrangeRed" LoaderOverColor="Black" LoaderFontSize="15"  ExpectedLoaderWidth="180" LoaderText="Loading"  LoaderTextColor="Blue"   />
+            <!--<WaitWindow:MicrosoftLoader LoaderHeaderIcon="pack://application:,,,/WpfCustomLoaderTesting;component/Resource/Images/LoaderHeaderIcon.jpg" LoaderOverColor="Black" LoaderFontSize="10" LoaderBodyColor="Black" LoaderHeaderFontSize="20"  LoaderColor="OrangeRed" LoaderHeaderText="Wait Window" LoaderHeaderTextColor="White" LoaderHeaderTheme="Blue" LoaderText="If you're looking to create a loader similar to those found in Microsoft Visual Studio using WPF and C#, you can create a custom loader control with a design inspired by Visual Studio's loading animations. Here's a simplified example of how you can create such a loader"  LoaderTextColor="White"   />-->
+            <!--27.GalacticWPFSpinner-->
+            <!--<WaitWindow:GalacticWPFSpinner  ExpectedLoaderHeight="180" LoaderColor="OrangeRed" LoaderOverColor="Black" LoaderFontSize="15"  ExpectedLoaderWidth="180" LoaderText="Loading"  LoaderTextColor="Blue"   />-->
         </WaitWindow:AdornedControl.AdornerContent>
         <Grid>
             <!--Main Content of the application-->
