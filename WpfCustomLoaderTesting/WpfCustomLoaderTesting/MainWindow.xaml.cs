@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using System;
 using System.Windows;
 using System.Windows.Threading;
 using WPF.CustomControls.LoadEase.Utility;
@@ -17,16 +18,22 @@ namespace WpfCustomLoaderTesting
         public MainWindow()
         {
             InitializeComponent();
+            var mainViewModel = App.serviceProvider.GetRequiredService<MainWindowViewModel>();
+            this.DataContext = mainViewModel;
             timer = new DispatcherTimer();
-            timer.Interval = TimeSpan.FromMinutes(10); // Adjust the interval as needed
+            timer.Interval = TimeSpan.FromSeconds(20); // Adjust the interval as needed
             timer.Tick += Timer_Tick;
             timer.Start();
-            LoaderHandler.ShowLoader();
         }
+
         private void Timer_Tick(object sender, EventArgs e)
         {
-            //LoadingAdorner.IsAdornerVisible = false;
             LoaderHandler.HideLoader();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            LoaderHandler.ShowLoader();
         }
     }
 }
