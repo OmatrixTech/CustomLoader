@@ -79,7 +79,7 @@
             <!--35.SwirlLoader-->
             <!--<WaitWindow:SwirlLoader LoaderOverColor="Black" ExpectedLoaderHeight="280" LoaderFontSize="15"  ExpectedLoaderWidth="280" LoaderText="Loading.."  LoaderTextColor="Red"   />-->
             <!--36.TurboTransitLoader-->
-            <!--<WaitWindow:TurboTransitLoader LoaderOverColor="Black" ExpectedLoaderHeight="280" LoaderFontSize="15"  ExpectedLoaderWidth="280" LoaderText="Loading.."  LoaderTextColor="Red"   />-->
+            <WaitWindow:TurboTransitLoader LoaderOverColor="Black" ExpectedLoaderHeight="280" LoaderFontSize="15"  ExpectedLoaderWidth="280" LoaderText="Loading.."  LoaderTextColor="Red"   />
             <!--37.VectorVeloLoader-->
             <!--<WaitWindow:VividVortexSpinner LoaderOverColor="Black" ExpectedLoaderHeight="150" LoaderFontSize="12"  ExpectedLoaderWidth="150" LoaderText="Loading"  LoaderTextColor="Red"   />-->
             <!--38.WPFLoadEase-->
@@ -87,7 +87,7 @@
             <!--39.MicrosoftLoader-->
             <!--<WaitWindow:MicrosoftLoader LoaderHeaderIcon="pack://application:,,,/WpfCustomLoaderTesting;component/Resource/Images/LoaderHeaderIcon.jpg" LoaderOverColor="Black" LoaderFontSize="10" LoaderBodyColor="Black" LoaderHeaderFontSize="20" LoaderBackgroundColor="Gray"  LoaderColor="OrangeRed" LoaderHeaderText="Wait Window" LoaderHeaderTextColor="White" LoaderHeaderTheme="Blue" LoaderText="If you're looking to create a loader similar to those found in Microsoft Visual Studio using WPF and C#, you can create a custom loader control with a design inspired by Visual Studio's loading animations. Here's a simplified example of how you can create such a loader"  LoaderTextColor="White"   />-->
             <!--40.GalacticWPFSpinner-->
-            <WaitWindow:GalacticWPFSpinner  ExpectedLoaderHeight="180" LoaderColor="DarkGoldenrod" LoaderOverColor="Black" LoaderFontSize="15"  ExpectedLoaderWidth="180" LoaderText="Searching"  LoaderTextColor="Blue"   />
+            <!--<WaitWindow:GalacticWPFSpinner  ExpectedLoaderHeight="180" LoaderColor="DarkGoldenrod" LoaderOverColor="Black" LoaderFontSize="15"  ExpectedLoaderWidth="180" LoaderText="Searching"  LoaderTextColor="Blue"   />-->
         </WaitWindow:AdornedControl.AdornerContent>
         <Grid>
             <!--Main Content of the application-->

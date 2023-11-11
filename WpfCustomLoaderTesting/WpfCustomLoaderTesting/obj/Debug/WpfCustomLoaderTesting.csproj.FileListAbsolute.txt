@@ -7,7 +7,6 @@ E:\E Data\YouTubeVideo\OmatrixTech\GITCLONES\WPFCustomLoader\WpfCustomLoaderTest
 E:\E Data\YouTubeVideo\OmatrixTech\GITCLONES\WPFCustomLoader\WpfCustomLoaderTesting\WpfCustomLoaderTesting\bin\Debug\FontAwesome.WPF.dll
 E:\E Data\YouTubeVideo\OmatrixTech\GITCLONES\WPFCustomLoader\WpfCustomLoaderTesting\WpfCustomLoaderTesting\bin\Debug\WPF.CustomControls.LoadEase.dll
 E:\E Data\YouTubeVideo\OmatrixTech\GITCLONES\WPFCustomLoader\WpfCustomLoaderTesting\WpfCustomLoaderTesting\bin\Debug\FontAwesome.WPF.xml
-E:\E Data\YouTubeVideo\OmatrixTech\GITCLONES\WPFCustomLoader\WpfCustomLoaderTesting\WpfCustomLoaderTesting\bin\Debug\WPF.CustomControls.LoadEase.pdb
 E:\E Data\YouTubeVideo\OmatrixTech\GITCLONES\WPFCustomLoader\WpfCustomLoaderTesting\WpfCustomLoaderTesting\obj\Debug\MainWindow.baml
 E:\E Data\YouTubeVideo\OmatrixTech\GITCLONES\WPFCustomLoader\WpfCustomLoaderTesting\WpfCustomLoaderTesting\obj\Debug\MainWindow.g.cs
 E:\E Data\YouTubeVideo\OmatrixTech\GITCLONES\WPFCustomLoader\WpfCustomLoaderTesting\WpfCustomLoaderTesting\obj\Debug\WpfCustomLoaderTesting.g.resources

@@ -70,9 +70,8 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="WPF.CustomControls.LoadEase, Version=1.2.0.3, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\ExamplesCSharp\PROJECTACTUALSOURCECODE\WPF\WPF.CustomControls.LoadEase\WPF.CustomControls.LoadEase\TestLoader\bin\Debug\WPF.CustomControls.LoadEase.dll</HintPath>
+    <Reference Include="WPF.CustomControls.LoadEase, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WPF.CustomControls.LoadEase.1.3.0\lib\net472\WPF.CustomControls.LoadEase.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
